@@ -3,6 +3,10 @@
   <includeClasses>
     <classEntry path="com.angrycutlet.drawingstuff.view.DSRectangle"/>
     <classEntry path="com.angrycutlet.drawingstuff.view.DrawingStuff"/>
+    <classEntry path="com.angrycutlet.drawingstuff.view.graphics.DSBaseGraphics"/>
+    <classEntry path="com.angrycutlet.drawingstuff.view.DSCanvas"/>
+    <classEntry path="com.angrycutlet.drawingstuff.data.DSUnits"/>
+    <classEntry path="com.angrycutlet.drawingstuff.data.DSTools"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>

@@ -10,24 +10,57 @@
   </features>
   <libraries>
     <library path="library.swf">
-      <script name="com/angrycutlet/drawingstuff/view/DrawingStuff" mod="1354043322484" signatureChecksum="2716350749" >
+      <script name="com/angrycutlet/drawingstuff/data/DSTools" mod="1354052391125" signatureChecksum="1345532844" >
+        <def id="com.angrycutlet.drawingstuff.data:DSTools" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/angrycutlet/drawingstuff/view/DSCanvas" mod="1354055899843" signatureChecksum="2408485840" >
+        <def id="com.angrycutlet.drawingstuff.view:DSCanvas" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="com.angrycutlet.drawingstuff.view:DSRectangle" type="e" /> 
+        <dep id="com.angrycutlet.drawingstuff.data:DSUnits" type="e" /> 
+        <dep id="com.angrycutlet.drawingstuff.data:DSTools" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="com.angrycutlet.drawingstuff.view:DSRectangle" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="spark.core:SpriteVisualElement" type="i" /> 
+      </script>
+      <script name="com/angrycutlet/drawingstuff/view/DrawingStuff" mod="1354051746093" signatureChecksum="2716350749" >
         <def id="com.angrycutlet.drawingstuff.view:DrawingStuff" /> 
         <dep id="AS3" type="n" /> 
         <dep id="spark.core:SpriteVisualElement" type="i" /> 
       </script>
-      <script name="_794b385b99793025bf3a43bdce56a6dd90bdc2a1f63058550ef0ebe58704c1d0_flash_display_Sprite" mod="1354043566781" signatureChecksum="2126805647" >
-        <def id="_794b385b99793025bf3a43bdce56a6dd90bdc2a1f63058550ef0ebe58704c1d0_flash_display_Sprite" /> 
+      <script name="com/angrycutlet/drawingstuff/view/graphics/DSBaseGraphics" mod="1354051927343" signatureChecksum="4198193305" >
+        <def id="com.angrycutlet.drawingstuff.view.graphics:DSBaseGraphics" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="spark.core:SpriteVisualElement" type="i" /> 
+      </script>
+      <script name="com/angrycutlet/drawingstuff/data/DSUnits" mod="1354052215859" signatureChecksum="893925628" >
+        <def id="com.angrycutlet.drawingstuff.data:DSUnits" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/angrycutlet/drawingstuff/view/DSRectangle" mod="1354055970078" signatureChecksum="1483886712" >
+        <def id="com.angrycutlet.drawingstuff.view:DSRectangle" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.angrycutlet.drawingstuff.view.graphics:DSBaseGraphics" type="i" /> 
+      </script>
+      <script name="_86850c3486c75c2fc4020a8c2b07c720d5f29a073ed59fa4b8ba2b59e665e570_flash_display_Sprite" mod="1354055970375" signatureChecksum="4119689687" >
+        <def id="_86850c3486c75c2fc4020a8c2b07c720d5f29a073ed59fa4b8ba2b59e665e570_flash_display_Sprite" /> 
         <dep id="flash.system:Security" type="e" /> 
         <dep id="AS3" type="n" /> 
         <dep id="flash.display:Sprite" type="i" /> 
       </script>
-      <script name="com/angrycutlet/drawingstuff/view/DSRectangle" mod="1354043309265" signatureChecksum="558577613" >
-        <def id="com.angrycutlet.drawingstuff.view:DSRectangle" /> 
-        <dep id="AS3" type="n" /> 
-        <dep id="spark.core:SpriteVisualElement" type="i" /> 
-      </script>
       <digests>
-        <digest type="SHA-256" signed="false" value="a3f9270140924a28fc2c3737b1e6ccc644dca1059e345ad063799fa56a85007f"   />
+        <digest type="SHA-256" signed="false" value="b78eb117a6a8122f12ffec34fa4d6801e5d185e4762a7e67959926fbc92619d0"   />
       </digests>
     </library>
   </libraries>

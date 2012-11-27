@@ -4,6 +4,7 @@ package com.angrycutlet.drawingstuff.view
 	
 	public class DrawingStuff extends SpriteVisualElement
 	{
+		
 		public function DrawingStuff()
 		{
 			super();
