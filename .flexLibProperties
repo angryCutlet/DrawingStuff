@@ -10,6 +10,7 @@
     <classEntry path="com.angrycutlet.drawingstuff.DSToolEvents"/>
     <classEntry path="com.angrycutlet.drawingstuff.view.DSLine"/>
     <classEntry path="com.angrycutlet.drawingstuff.interfaces.IDSDrawable"/>
+    <classEntry path="com.angrycutlet.drawingstuff.view.DSCircle"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>

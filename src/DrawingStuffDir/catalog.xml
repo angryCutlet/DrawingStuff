@@ -15,12 +15,28 @@
         <dep id="AS3" type="n" /> 
         <dep id="Object" type="i" /> 
       </script>
+      <script name="com/angrycutlet/drawingstuff/view/DSCircle" mod="1354213068890" signatureChecksum="3214711599" >
+        <def id="com.angrycutlet.drawingstuff.view:DSCircle" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="com.angrycutlet.drawingstuff:DSToolEvents" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="spark.core:SpriteVisualElement" type="i" /> 
+        <dep id="com.angrycutlet.drawingstuff.interfaces:IDSDrawable" type="i" /> 
+      </script>
       <script name="com/angrycutlet/drawingstuff/data/DSTools" mod="1354133295031" signatureChecksum="2348435414" >
         <def id="com.angrycutlet.drawingstuff.data:DSTools" /> 
         <dep id="AS3" type="n" /> 
         <dep id="Object" type="i" /> 
       </script>
-      <script name="com/angrycutlet/drawingstuff/view/DSCanvas" mod="1354140950046" signatureChecksum="1617508055" >
+      <script name="com/angrycutlet/drawingstuff/view/DSCanvas" mod="1354212315578" signatureChecksum="1617508055" >
         <def id="com.angrycutlet.drawingstuff.view:DSCanvas" /> 
         <dep id="com.angrycutlet.drawingstuff.view:DSLine" type="e" /> 
         <dep id="flash.ui:Keyboard" type="e" /> 
@@ -28,6 +44,7 @@
         <dep id="com.angrycutlet.drawingstuff.view:DSRectangle" type="e" /> 
         <dep id="com.angrycutlet.drawingstuff:DSToolEvents" type="e" /> 
         <dep id="flash.events:KeyboardEvent" type="e" /> 
+        <dep id="com.angrycutlet.drawingstuff.view:DSCircle" type="e" /> 
         <dep id="com.angrycutlet.drawingstuff.data:DSUnits" type="e" /> 
         <dep id="com.angrycutlet.drawingstuff.data:DSTools" type="e" /> 
         <dep id="flash.events:Event" type="s" /> 
@@ -35,6 +52,7 @@
         <dep id="com.angrycutlet.drawingstuff.view:DSRectangle" type="s" /> 
         <dep id="flash.events:KeyboardEvent" type="s" /> 
         <dep id="com.angrycutlet.drawingstuff.interfaces:IDSDrawable" type="s" /> 
+        <dep id="com.angrycutlet.drawingstuff.view:DSCircle" type="s" /> 
         <dep id="AS3" type="n" /> 
         <dep id="spark.core:SpriteVisualElement" type="i" /> 
       </script>
@@ -63,16 +81,16 @@
         <dep id="spark.core:SpriteVisualElement" type="i" /> 
         <dep id="com.angrycutlet.drawingstuff.interfaces:IDSDrawable" type="i" /> 
       </script>
+      <script name="_e7313aa97010c64617a20dce46767079d7638bcd50bb84b48c98ddf742d253af_flash_display_Sprite" mod="1354213069281" signatureChecksum="4020468191" >
+        <def id="_e7313aa97010c64617a20dce46767079d7638bcd50bb84b48c98ddf742d253af_flash_display_Sprite" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
       <script name="com/angrycutlet/drawingstuff/view/graphics/DSBaseGraphics" mod="1354126204031" signatureChecksum="2704686458" >
         <def id="com.angrycutlet.drawingstuff.view.graphics:DSBaseGraphics" /> 
         <dep id="AS3" type="n" /> 
         <dep id="spark.core:SpriteVisualElement" type="i" /> 
-      </script>
-      <script name="_4f44410654953313a627e1c64ecd6da01cba4a6b2e46de15f62d9320701e4f60_flash_display_Sprite" mod="1354140951109" signatureChecksum="2308667709" >
-        <def id="_4f44410654953313a627e1c64ecd6da01cba4a6b2e46de15f62d9320701e4f60_flash_display_Sprite" /> 
-        <dep id="flash.system:Security" type="e" /> 
-        <dep id="AS3" type="n" /> 
-        <dep id="flash.display:Sprite" type="i" /> 
       </script>
       <script name="com/angrycutlet/drawingstuff/data/DSUnits" mod="1354052215859" signatureChecksum="893925628" >
         <def id="com.angrycutlet.drawingstuff.data:DSUnits" /> 
@@ -97,7 +115,7 @@
         <dep id="com.angrycutlet.drawingstuff.view.graphics:DSBaseGraphics" type="i" /> 
       </script>
       <digests>
-        <digest type="SHA-256" signed="false" value="435a4f1f27b284a9a2d28fb5f236570958f8db0c62b0cfd71249da97027f2c4e"   />
+        <digest type="SHA-256" signed="false" value="0627f2a1beafe200dba317c1279d1bfbb3c802b23adfbc1c68b710bb76509486"   />
       </digests>
     </library>
   </libraries>

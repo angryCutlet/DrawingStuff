@@ -123,6 +123,12 @@ package com.angrycutlet.drawingstuff.view
 					line.addEventListener(DSToolEvents.FINISHED_DRAWING, onFinishedDrawing);
 					this.addChild(line);
 					break;
+				case DSTools.CIRCLE:
+					var circle:DSCircle = new DSCircle( fillColor, strokeColor, opacity );
+					_selectedToolInstance = circle;
+					circle.addEventListener(DSToolEvents.FINISHED_DRAWING, onFinishedDrawing);
+					this.addChild(circle);
+					break;
 			}
 			
 		}
